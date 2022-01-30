@@ -1,0 +1,24 @@
+.navbar-nav > .nav-item { 
+    padding: 0px 15px 0 15px 
+}
+
+.navbar{
+    padding: 15px 0 15px 0;
+}
+
+.card-btn{
+    
+    position: relative;
+}
+
+.card-btn-big{
+    top: 90%;
+}
+
+.card-btn-tall{
+    top: 91%
+}
+
+.card-btn-small{
+    top: 80%
+}

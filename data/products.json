@@ -1,0 +1,42 @@
+[
+    {
+        "productId": "1",
+        "productName": "Rolex Watch Automatic",
+        "price": "$1000",
+        "salePrice": "$980",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["watch1.jpg", "watch2.jpg"],
+        "colors": ["Black", "Silver", "Gold"],
+        "category": "automatic"
+    },
+    {
+        "productId": "2",
+        "productName": "Rolex Watch Skeleton",
+        "price": "$1200",
+        "salePrice": "$",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["skeleton1.jpg", "skeleton2.jpg"],
+        "colors": ["Black", "Silver", "Gold"],
+        "category": "classic"
+    },
+    {
+        "productId": "3",
+        "productName": "Rado Watch Bold",
+        "price": "$1200",
+        "salePrice": "$1100",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["rado1.jpg"],
+        "colors": ["Black", "Gold"],
+        "category": "classic"
+    },
+    {
+        "productId": "4",
+        "productName": "Casio G Shock",
+        "price": "$600",
+        "salePrice": "$550",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["gshock1.jpg", "gshock2.jpg"],
+        "colors": ["Black", "White", "Red"],
+        "category": "digital"
+    }
+]
