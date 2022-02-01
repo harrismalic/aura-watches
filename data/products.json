@@ -38,5 +38,15 @@
         "pictures": ["gshock1.jpg", "gshock2.jpg"],
         "colors": ["Black", "White", "Red"],
         "category": "digital"
+    },
+    {
+        "productId": "5",
+        "productName": "Casio G Shock",
+        "price": "$600",
+        "salePrice": "$550",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["gshock1.jpg", "gshock2.jpg"],
+        "colors": ["Black", "White", "Red"],
+        "category": "digital"
     }
 ]
