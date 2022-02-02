@@ -26,3 +26,22 @@ body{
 .card-btn-small{
     top: 80%
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.cart-button:hover{
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}
+.cart:focus{
+    box-shadow: none;
+}
+.cart-button:focus{
+    box-shadow: none;
+}
