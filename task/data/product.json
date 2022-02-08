@@ -1,0 +1,32 @@
+[
+    {
+        "productId":"1",
+        "productName":"Arua",
+        "price":"$500",
+        "color":["Red", "Green"]
+    },
+    {
+        "productId":"2",
+        "productName":"Classic",
+        "price":"$500",
+        "color":["Black"]
+    },
+    {
+        "productId":"3",
+        "productName":"G Shock",
+        "price":"$500",
+        "color":["Black", "Red", "Green"]
+    },
+    {
+        "productId":"4",
+        "productName":"Casio",
+        "price":"$500",
+        "color":["Black", "Red", "Green", "Blue"]
+    },
+    {
+        "productId":"5",
+        "productName":"Automatic",
+        "price":"$500",
+        "color":["Black", "Red", "Green"]
+    }
+]

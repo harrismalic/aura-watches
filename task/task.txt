@@ -1,0 +1,4 @@
+1. index ke ander header or footer fetch karaney hain javascript ke throug
+2. ek products ki json file banani hai
+3. product name pr map lagana hai
+4. product category pr filter lagana hai
