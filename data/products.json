@@ -5,7 +5,7 @@
         "price": "$1000",
         "salePrice": "$980",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
-        "pictures": ["watch1.jpg", "watch2.jpg"],
+        "pictures": ["../assets/images/featured-img/Rolex-1.jpg"],
         "colors": ["Black", "Silver", "Gold"],
         "category": "automatic"
     },
@@ -15,7 +15,7 @@
         "price": "$1200",
         "salePrice": "$",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
-        "pictures": ["skeleton1.jpg", "skeleton2.jpg"],
+        "pictures": ["../assets/images/featured-img/Rolex-Skeleton.jpg"],
         "colors": ["Black", "Silver", "Gold"],
         "category": "classic"
     },
@@ -25,7 +25,7 @@
         "price": "$1200",
         "salePrice": "$1100",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
-        "pictures": ["rado1.jpg"],
+        "pictures": ["../assets/images/featured-img/Rado-1.jpg"],
         "colors": ["Black", "Gold"],
         "category": "classic"
     },
@@ -35,7 +35,7 @@
         "price": "$600",
         "salePrice": "$550",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
-        "pictures": ["gshock1.jpg", "gshock2.jpg"],
+        "pictures": ["../assets/images/featured-img/G-Shock-1.jpg"],
         "colors": ["Black", "White", "Red"],
         "category": "digital"
     },
@@ -45,8 +45,38 @@
         "price": "$600",
         "salePrice": "$550",
         "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
-        "pictures": ["gshock1.jpg", "gshock2.jpg"],
+        "pictures": ["../assets/images/featured-img/G-Shock-4.jpg"],
         "colors": ["Black", "White", "Red"],
-        "category": "digital"
+        "category": "analog"
+    },
+    {
+        "productId": "6",
+        "productName": "Casio G Shock",
+        "price": "$600",
+        "salePrice": "$550",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["../assets/images/featured-img/G-Shock-4.jpg"],
+        "colors": ["Black", "White", "Red"],
+        "category": "analog"
+    },
+    {
+        "productId": "7",
+        "productName": "Casio G Shock",
+        "price": "$600",
+        "salePrice": "$550",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["../assets/images/featured-img/G-Shock-4.jpg"],
+        "colors": ["Black", "White", "Red"],
+        "category": "analog"
+    },
+    {
+        "productId": "8",
+        "productName": "Casio G Shock",
+        "price": "$600",
+        "salePrice": "$550",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer",
+        "pictures": ["../assets/images/featured-img/G-Shock-4.jpg"],
+        "colors": ["Black", "White", "Red"],
+        "category": "analog"
     }
 ]

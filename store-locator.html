@@ -43,18 +43,8 @@
     </div>
         <div class="container mt-5">
             
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="tel:922134385418" class="btn btn-primary">Call</a>
-                      <a href="https://goo.gl/maps/sHWjHGw7UVAiJFYR6" target="_blank" class="btn btn-outline-primary">Open in maps</a>
-                    </div>
-                  </div>
-            </div>
+        <div class="row" id="store-container">
+            
         </div>
         
      </div>
@@ -69,4 +59,22 @@
   <script src="./assets/vendor/jquery/jquery-3.5.1.min.js"></script>
   <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
   <script src="./assets/js/main.js"></script>
+  <script> 
+  $.getJSON("./data/store.json",function(data){
+    data.map((store) =>{
+      $("#store-container").append(
+        "<div class='col-md-3'><div class='card' style='min-height:195px; margin:5px;'>"+
+        "<div class='card-body'>"+
+          "<h5 class='card-title'>"+store.branchName+"</h5>"+
+          
+          "<p class='card-text'>"+store.address+"</p>"+
+          
+          "<a href='tel:"+store.phone+"' class='btn btn-primary'>Call</a>"+
+          "<a href='"+store.location+"' target='_blank' class='btn btn-outline-primary'>Open in maps</a>"+
+        "</div></div></div>"
+      )
+    })
+  })
+  </script>
+
 </html>

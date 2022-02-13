@@ -77,7 +77,7 @@
       products.map((product) => {
         $("#container-product2").append(
           "<div class='col-md-3'>" +
-            "<div class='card' style=' background: url(./assets/images/banner.jpg); background-size: cover; height: 350px;'>" +
+            "<div class='card' style=' background: url("+product.picture[0]+"); background-size: cover; height: 350px;'>" +
             "<div class='card-body' style='text-align: center; position: relative; top: 40%'>" +
             "<a href='#' style='display: none' class='btn btn-secondary'>Go somewhere</a>" +
             "</div>" +
