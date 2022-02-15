@@ -243,8 +243,9 @@
   <script src="./assets/js/main.js"></script>
   <script>
     $.getJSON("./data/products.json", function (data) {
-      data.map((product) => {
-        $("#container-product").append(
+      data.map((product,i) => {
+        if(i < 8){
+          $("#container-product").append(
           "<div class='col-md-3'>" +
             "<div class='card' style=' background: url("+product.pictures[0]+"); background-size: cover; height: 350px;'>" +
             "<div class='card-body' style='text-align: center; position: relative; top: 40%'>" +
@@ -261,6 +262,8 @@
             "</del> </div>" +
             "</div> </div>"
         );
+        }
+        
       });
     });
   </script>
